@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TiVi ten="This is my TV"></TiVi>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TiVi from './components/TiVi.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TiVi
   }
 }
 </script>
